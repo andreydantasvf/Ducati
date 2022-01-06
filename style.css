@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.menu {
+    display: none;
+}
+
+.btn-menu {
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-hamburger {
+    width: 2rem;
+    border-top: .2rem solid #fff;
+}
+
+.btn-hamburger::after, .btn-hamburger::before  {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: .2rem;
+    background: #fff;
+    margin-top: .5rem;
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 14rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 8rem;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles .brand {
+    color: #DF1F26;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.titles .model {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15rem;
+    line-height: 20rem;
+}
