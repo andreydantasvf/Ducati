@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    --ggs: 4;
 }
 
 body {
@@ -60,6 +61,8 @@ header {
     align-items: center;
     flex-direction: column;
     margin: 2rem 8rem;
+
+    position: relative;
 }
 
 .titles {
@@ -80,4 +83,93 @@ header {
     font-weight: 700;
     font-size: 15rem;
     line-height: 20rem;
+}
+
+.details {
+    width: 100%;
+    margin-top: 11rem;
+    background: #fff;
+    border: none;
+    border-radius: 2.8rem;
+    height: 25rem;
+}
+
+.details-text{
+    padding-left: 4rem;
+    padding-top: 3rem;
+}
+
+.details-text p {
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+.details-text h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.container-motorcycle {
+    position: absolute;
+}
+
+.btn {
+    color: #fff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-back {
+    left: -2rem;
+    top: 17rem;
+    cursor: pointer;
+}
+
+#btn-next {
+    right: -2rem;
+    top: 17rem;
+    cursor: pointer;
+}
+
+.motorcycle-image {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.color {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .8rem;
+}
+
+#red {
+    background-color: red;
+}
+
+#black {
+    background-color: black;
+}
+
+#grey {
+    background-color: grey;
+}
+
+.color-active {
+    width: 5rem;
+    height: 5rem;
+    filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.6));
 }
