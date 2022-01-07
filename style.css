@@ -139,6 +139,10 @@ header {
     display: none;
 }
 
+#motorcycle-black {
+    height: 39rem;
+}
+
 .active {
     display: block;
 }
@@ -156,15 +160,15 @@ header {
     border-radius: .8rem;
 }
 
-#red {
+#color0 {
     background-color: red;
 }
 
-#black {
+#color1 {
     background-color: black;
 }
 
-#grey {
+#color2 {
     background-color: grey;
 }
 
